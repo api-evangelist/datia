@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Datia is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip) and added to the network as a stub for full-pipeline profiling.
-- https://datia.app/
+Datia provides a data platform for sustainable finance, offering solutions for ESG, SDGs, stewardship, temperature scoring, and compliance with EU regulations such as SFDR and MiFID II. Their platform enables asset managers, asset owners, wealth advisors, and tech platforms to source data, perform portfolio calculations, and generate ready‑to‑share reports, streamlining sustainable investment processes. Datia is now part of Connect Earth, building a Sustainable Finance OS to help the industry meet ESG goals and regulatory requirements.
+
+**Areas:** Sustainable Finance · ESG · Data Platform · Finance
+
+## Datia on APIs.io
+
+Everything profiled for Datia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/datia/](https://apis.io/providers/datia/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Datia API](https://apis.io/apis/datia/datia-api-2/) — Data platform API for sustainable finance, providing ESG, SDG, stewardship and compliance data.
+- [Datia Instruments API](https://apis.io/apis/datia/datia-instruments-api/) — The Instruments API from Datia — 1 operation(s) for instruments.
+- [Datia Portfolios API](https://apis.io/apis/datia/datia-portfolios-api/) — The Portfolios API from Datia — 2 operation(s) for portfolios.
+- [Datia Reports API](https://apis.io/apis/datia/datia-reports-api/) — The Reports API from Datia — 1 operation(s) for reports.
+- [Datia Sustainable Investments API](https://apis.io/apis/datia/datia-sustainable-investments-api/) — The Sustainable Investments API from Datia — 2 operation(s) for sustainable investments.
+- [Datia Taxonomy API](https://apis.io/apis/datia/datia-taxonomy-api/) — The Taxonomy API from Datia — 1 operation(s) for taxonomy.
+- [Datia Temperature Score API](https://apis.io/apis/datia/datia-temperature-score-api/) — The Temperature Score API from Datia — 1 operation(s) for temperature score.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetPortfoliosResponse](https://apis.io/schemas/datia/datia-get-portfolios-response/)
+- [PostInstrumentsInstrumentidResponse](https://apis.io/schemas/datia/datia-post-instruments-instrumentid-response/)
+- [PostReportsRequest](https://apis.io/schemas/datia/datia-post-reports-request/)
+- [PostSustainableInvestmentsInsightsResponse](https://apis.io/schemas/datia/datia-post-sustainable-investments-insights-response/)
+- [PostTaxonomyInsightsResponse](https://apis.io/schemas/datia/datia-post-taxonomy-insights-response/)
+- [PostTemperatureScoreInsightsResponse](https://apis.io/schemas/datia/datia-post-temperature-score-insights-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Datia Context](https://apis.io/jsonld/datia/datia-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Datia API Rules](https://apis.io/rules/datia/datia-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Datia Authentication](https://apis.io/security/datia/datia-authentication/)
+- [Datia Domain Security](https://apis.io/security/datia/datia-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Datia Plans Pricing](https://apis.io/plans/datia/datia-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.datia.app/)
+- [Documentation](https://docs.datia.app/)
+- [Getting started](https://docs.datia.app/docs/quickstart/)
+- [API reference](https://docs.datia.app/llms-full.txt)
+- [Pricing](https://www.datia.app/pricing)
+- [Blog](https://www.datia.app/blog)
+
+## API Evangelist rating
+
+**Kin Score 32.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 28.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 42.1 |
+
+**Agent readiness 20.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/datia/](https://apis.io/providers/datia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Datia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/datia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
